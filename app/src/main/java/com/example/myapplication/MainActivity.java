@@ -90,7 +90,7 @@ public class MainActivity extends AppCompatActivity {
         language = findViewById(R.id.language);
         sharedPreferences = this.getSharedPreferences("com.example.myapplication", Context.MODE_PRIVATE);
 
-        String langSet = sharedPreferences.getString("lang", "...");
+        String langSet = sharedPreferences.getString("lang", "");
         language.setText(langSet);
 
 
